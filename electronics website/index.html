@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRONIC WEBSITE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></li>
+                <li class="nav-link">
+                    <a href="index.html"></i>Home</a>
+                </li>
+                <li class="nav-link services">
+                    <a href="#">Categories
+                        <span class="material-icons dropdown-icon">
+                        </span>
+                    </a>
+                    <ul class="drop-down">
+                        <li><a href="phone.html">Phone Section</a> </li>
+                        <li><a href="laptop.html">Laptop Section</a> </li>
+                        <li> <a href="headphone.html">Headphone Section</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="electronics.html">Electronics</a>
+                </li>   
+                <li class="nav-link">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="electro-menu">
+        <div class="container1">
+            <h2 id="third" class="text-center"><span>EXPLORE GADGETS</span> </h2>
+        </div>
+    </section>
+    <div class="carousel">
+        <button onclick="previous()" class="btn1 btn1-prev">
+            <i class="arrow left"><i class="fa-sharp fa-solid fa-arrow-left"></i></i>
+        </button>
+        <div class="carousel-slides">
+            <div class="active slide slide1"><a href="phone.html"><img src="image1phone.png" alt="image of a phone"></a></div>
+            <div class="slide slide2"><a href="laptop.html"><img src="laptop1.jpg" alt="image of a laptop"></a></div>
+            <div class="slide slide3"><a href="headphone.html"><img src="image3headphone.png" alt="image of a headphone"></a></div>
+            <div class="slide slide4"><a href="electronics.html"><img src="image41electronics.jpg" alt="image of elctronics"></a></div>
+        </div>
+        <button onclick="next()" class="btn1 btn1-next">
+            <i class="arrow right"><i class="fa-sharp fa-solid fa-arrow-right"></i></i>
+        </button>
+    </div>
+        <div class="containerin">
+            <div class="footer-content">
+                <div class="app-info">
+                    <h2>AV ELECTRONICS </h2>
+                    <p>Your complete electronics store.</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png" / ></a>
+                <a href="https://www.instagram.com/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" /></a>
+                <a href="https://twitter.com/tweeter"><img src="https://img.icons8.com/fluent/48/000000/twitter.png" /></a>
+            </div>
+            <div class="copyright">
+                <p class="copyright-text">
+                    &copy; 2023 All roghts reserved ||Designed By three friends VISHAL, ANKITA & AYUSHREE
+
+                </p>
+            </div>
+        </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
